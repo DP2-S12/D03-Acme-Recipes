@@ -31,6 +31,7 @@ public class ChefFineDishListOwnTest extends TestHarness{
 		super.checkInputBoxHasValue("code", code);
 		super.checkInputBoxHasValue("request", request);
 		super.checkInputBoxHasValue("budget", budget);
+//		super.checkInputBoxHasValue("publishedStatus", publishedStatus);
 		super.checkInputBoxHasValue("startsAt", startsAt);
 		super.checkInputBoxHasValue("finishesAt", finishesAt);
 		super.checkInputBoxHasValue("link", link);
