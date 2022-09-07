@@ -10,8 +10,8 @@
 	<acme:input-textbox code="authenticated.epicure.finedish.form.label.code" path="code"/>	
 	<acme:input-textbox code="authenticated.epicure.finedish.form.label.request" path="request"/>	
 	<acme:input-money code="authenticated.epicure.finedish.form.label.budget" path="budget"/>	
-	<acme:input-textbox code="authenticated.epicure.finedish.form.label.startsAt" path="startsAt"/>
-	<acme:input-textarea code="authenticated.epicure.finedish.form.label.finishesAt" path="finishesAt"/>
+	<acme:input-moment code="authenticated.epicure.finedish.form.label.startsAt" path="startsAt"/>
+	<acme:input-moment code="authenticated.epicure.finedish.form.label.finishesAt" path="finishesAt"/>
 	<acme:input-url code="authenticated.epicure.finedish.form.label.link" path="link"/>
 	<acme:input-textarea code="authenticated.epicure.finedish.form.label.chef.organisation" path="chef.organisation"/>
 	<acme:input-textarea code="authenticated.epicure.finedish.form.label.chef.assertion" path="chef.assertion"/>

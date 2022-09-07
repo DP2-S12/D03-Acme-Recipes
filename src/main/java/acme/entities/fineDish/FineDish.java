@@ -2,7 +2,6 @@ package acme.entities.fineDish;
 
 import java.util.Date;
 
-import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
@@ -16,6 +15,7 @@ import javax.validation.constraints.Pattern;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
+import acme.enums.PublishedStatus;
 import acme.enums.Status;
 import acme.framework.datatypes.Money;
 import acme.framework.entities.AbstractEntity;
@@ -45,6 +45,9 @@ public class FineDish extends AbstractEntity {
 	@NotNull
 	protected Money budget;
 	
+
+	@NotNull
+	protected PublishedStatus publishedStatus;
 	
 	
 	@Temporal(TemporalType.TIMESTAMP)
@@ -62,16 +65,14 @@ public class FineDish extends AbstractEntity {
 	@URL
 	protected String link;
 	
-	@ManyToOne
+	@ManyToOne(optional = false)
 	@Valid
 	@NotNull
-	@Basic(optional = false)
 	protected Chef chef;
 	
-	@ManyToOne
+	@ManyToOne(optional = false)
 	@Valid
 	@NotNull
-	@Basic(optional = false)
 	protected Epicure epicure;
 	
 	

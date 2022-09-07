@@ -69,7 +69,7 @@ public class AdministratorDashboardTest extends TestHarness {
 		
 		// Total proposed, accepted & denied patronages
 		inputsMap.put("//*[@id=\"totals\"]/div[2]/div[1]/div/div/label/input", "7");
-		inputsMap.put("//*[@id=\"totals\"]/div[2]/div[2]/div/div/label/input", "7");
+		inputsMap.put("//*[@id=\"totals\"]/div[2]/div[2]/div/div/label/input", "8");
 		inputsMap.put("//*[@id=\"totals\"]/div[2]/div[3]/div/div/label/input", "7");
 		
 		// Budgets
@@ -81,9 +81,9 @@ public class AdministratorDashboardTest extends TestHarness {
 		
 		// Acepted
 		inputsMap.put("//*[@id=\"budgets\"]/div[2]/div[1]/div/div/label/input", "68.0");
-		inputsMap.put("//*[@id=\"budgets\"]/div[2]/div[2]/div/div/label/input", "34.0");
-		inputsMap.put("//*[@id=\"budgets\"]/div[2]/div[3]/div/div/label/input", "48.857142857142854");
-		inputsMap.put("//*[@id=\"budgets\"]/div[2]/div[4]/div/div/label/input", "10.147886077244594");
+		inputsMap.put("//*[@id=\"budgets\"]/div[2]/div[2]/div/div/label/input", "21.0");
+		inputsMap.put("//*[@id=\"budgets\"]/div[2]/div[3]/div/div/label/input", "45.375");
+		inputsMap.put("//*[@id=\"budgets\"]/div[2]/div[4]/div/div/label/input", "13.228165972650933");
 		
 		// Denied
 		inputsMap.put("//*[@id=\"budgets\"]/div[3]/div[1]/div/div/label/input", "80.0");
